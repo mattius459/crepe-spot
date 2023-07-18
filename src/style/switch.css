@@ -21,9 +21,21 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #AA0028;
+    background: linear-gradient(90deg, #8CCCF5, #F5A4A4);
     -webkit-transition: .4s;
     transition: .4s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8px;
+  }
+
+  .svg {
+    z-index: 1000;
+  }
+
+  .dark .slider {
+    background: linear-gradient(90deg, #754343, #0093F5);
   }
   
   .slider:before {
