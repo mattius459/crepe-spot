@@ -1,6 +1,6 @@
 .FullCard2 {
     width: 363px;
-    height: 250px;
+    height: 394px;
     flex-shrink: 0;
     margin: 0 auto;
     margin-top: 36px;
@@ -8,6 +8,7 @@
 
 .card_info {
     padding: 12px;
+    height: 143px;
     border-radius: 0px 0px 10px 10px;
     background: #FFFFF3;
 
@@ -49,8 +50,10 @@
     font-weight: 300;
     line-height: normal;
     letter-spacing: -0.165px;
-    width: 212px;
+    width: 270px;
     text-align: left;
+    margin-left: 6px;
+    margin-top: 16px;
 }
 
 .dark .description {
