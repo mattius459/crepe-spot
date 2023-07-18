@@ -1,3 +1,9 @@
+/* @font-face {
+  font-family: SFProDisplay;
+  src: url('../public/fonts/SF-Pro-Display-Regular.otf') format('otf');
+} */
+
+
 .App {
   text-align: center;
 }
