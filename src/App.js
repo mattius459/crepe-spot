@@ -16,6 +16,7 @@ import { useState } from 'react';
 
 function App() {
   return (
+
     <div className='splitcard-container'>
       <SplitCard1 />
       <SplitCard2 />
@@ -24,10 +25,11 @@ function App() {
         <Carousel cakes={cakes} />
         <HorizontalScroll />
         <FullCard />
-        {/* <TableCard /> */}
+        <TableCard />
         <Footer/>
       </div>
     </div>
+
   );
 }
 
