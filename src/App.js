@@ -10,12 +10,12 @@ import { useState } from 'react';
 
 
 function App() {
-  const [darkMode, setDarkMode] = useState(false)
+  const [darkMode, setDarkMode] = useState(true)
   return (
-    <div className={`container ${darkMode? 'darkMode': ''}`}>
+    <div className={`container ${darkMode ? 'darkMode' : ''}`}>
       <Carousel cakes={cakes} />
-      <Footer/>
-   </div>
+      <Footer darkMode={darkMode} />
+    </div>
   );
 }
 
