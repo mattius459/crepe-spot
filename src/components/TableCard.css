@@ -1,0 +1,98 @@
+.tablecard {
+    width: 361px;
+    height: 390px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFFFF3;
+    box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 198px;
+}
+
+.section {
+    display: flex;
+    height: 130px;
+    border-bottom: 1px solid lightgray;
+    padding: 12px 10px;
+    box-sizing: border-box;
+}
+
+.last-section {
+    border-bottom: none;
+}
+
+.images {
+    width: 106px;
+    height: 106px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+    width: 245px;
+    align-items: flex-start;
+    margin-bottom: 11px;
+}
+
+.text-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    color: #754343;
+    font-family: 'SF Pro Text';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.165px;
+    margin-bottom: 0px;
+}
+
+
+.img-description {
+    color: #754343;
+    font-family: 'SF Pro Display';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: -0.165px;
+    width: 160px;
+    display: inline-block;
+    margin-top: 0px; 
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.button-blue {
+    width: 127px;
+    height: 28px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    background: #8CCCF5;
+    color: #2F414D;
+    font-family: 'SF Pro Display';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.165px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: auto;
+    border: none;
+}
+
+.last-button {
+    margin-bottom: 0;
+}

@@ -1,4 +1,8 @@
+
 import React, { useContext } from 'react';
+import React from 'react';
+import SplitCard1 from './components/SplitCard/SplitCard1';
+import SplitCard2 from './components/SplitCard/SplitCard2';
 import './App.css';
 import { ThemeContext } from './contexts/themecontexts';
 import HorizontalScroll from './components/HorizontalScroll';
@@ -16,14 +20,18 @@ function App() {
   const { theme } = useContext(ThemeContext);
   
   return (
-    <div className={`App ${theme}`}>
-      <Nav />
-      <Carousel cakes={cakes} />
-      <HorizontalScroll />
-      <FullCard />
-      {/* <TableCard /> */}
-      <Footer/>
-   </div>
+      <div className={`App ${theme}`}>
+        <Nav />
+        <Carousel cakes={cakes} />
+        <HorizontalScroll />
+        <FullCard />
+        <TableCard />
+        <div className='splitcard-container'>
+        <SplitCard1 />
+        <SplitCard2 />
+        </div>
+        <Footer/>
+    </div>
   );
 }
 
