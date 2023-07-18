@@ -13,6 +13,10 @@ flex-shrink: 0;
 border-radius: 10px 10px 10px 10px;
 }
 
+.dark .container-2 {
+    background-color: #2F414D;
+    }
+
 .title-2 {
 margin-top: 13px;
 margin-left: 6px;
@@ -26,6 +30,10 @@ line-height: normal;
 letter-spacing: -0.165px;
 }
 
+.dark .title-2 {
+color: #FFFFFF;
+}
+
 .sub-title-2 {
 width: 157px;
 color: #754343;
@@ -36,6 +44,10 @@ font-style: normal;
 font-weight: 200;
 line-height: normal;
 letter-spacing: -0.165px;
+}
+
+.dark .sub-title-2 {
+color: #FFFFFF;
 }
 
 .picture-2 {
