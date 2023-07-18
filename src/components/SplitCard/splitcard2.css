@@ -1,11 +1,10 @@
 .card-container-2 {
 display: inline-block;
 margin-left: 10px;
-margin-top: 25px;
 }
 .container-2 {
 background-color: #FFFFF3;
-display: inline-block;
+/* display: inline-block; */
 flex-direction: column;
 width: 170px;
 height: 316px;
@@ -40,10 +39,12 @@ width: 170px;
 height: 158px;
 flex-shrink: 0;
 border-radius: 10px 10px 0px 0px;
-background: url(/public/images/x-15802.png), lightgray 50% / cover no-repeat;
+/* background: url(/public/images/x-15802.png), lightgray 50% / cover no-repeat; */
 }
 
 .btn-2 {
-border-radius: 100px;
+border: 0;
+border-radius: 24px;
+padding: 6px 24px;
 background-color: #8CCCF5;
 }
