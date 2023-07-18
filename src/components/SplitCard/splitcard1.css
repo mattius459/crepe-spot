@@ -1,0 +1,48 @@
+.card-container {
+display: inline-block;
+margin-left: 2px;
+}
+
+.container {
+background-color: #FFFFF3;
+display: inline-block;
+flex-direction: column;
+width: 170px;
+height: 316px;
+flex-shrink: 0;
+border-radius: 10px 10px 10px 10px;
+}
+
+.title {
+width: 136px;
+color: #754343;
+font-family: SF Pro Text;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: -0.165px;
+}
+
+.sub-title {
+width: 157px;
+color: #754343;
+font-family: SF Pro Display;
+font-size: 14px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+letter-spacing: -0.165px;
+}
+.picture {
+width: 170px;
+height: 158px;
+flex-shrink: 0;
+border-radius: 10px 10px 0px 0px;
+background: url(/public/images/x-15802.png), lightgray 50% / cover no-repeat;
+}
+
+.btn {
+border-radius: 25px;
+background-color: #8CCCF5;
+}
