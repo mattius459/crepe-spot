@@ -14,7 +14,6 @@ code {
 
 .App {
   text-align: center;
-  background-color: #f1f1f1; /* Set the default background color for light mode */
 }
 
 .dark .App {

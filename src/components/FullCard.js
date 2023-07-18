@@ -9,7 +9,7 @@ function FullCard() {
             <div class="title">
             Choco Bon Bon Mille Crepe
             </div>
-            <div class="description">
+            <div class="description1">
             20 layers of crepe filled with chocolate
             covered with vanilla cream and
             </div>

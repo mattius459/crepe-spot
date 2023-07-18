@@ -5,6 +5,11 @@
   
 }
 
+.swiper-pagination-bullet-active {
+  background: white;
+}
+
+
 .mySwiper{
   height: 250px;
   width: 100%;
@@ -16,6 +21,9 @@
   width: 100% !important;
 
 }
+
+
+
 
 .mySwiper .slide img {
 object-fit: contain;

@@ -41,7 +41,7 @@
     color: #ffff;
 }
 
-.description {
+.description1 {
     font-family: SF Pro Display;
     color: #754343;
     font-size: 14px;
@@ -53,7 +53,7 @@
     text-align: left;
 }
 
-.dark .description {
+.dark .description1 {
     color: #ffff;
 }
 
