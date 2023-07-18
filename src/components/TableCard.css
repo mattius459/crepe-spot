@@ -83,7 +83,7 @@
     color: #2F414D;
     font-family: 'SF Pro Display';
     font-size: 14px;
-    font-weight: 500;
+    /* font-weight: 500; */
     line-height: normal;
     letter-spacing: -0.165px;
     display: flex;

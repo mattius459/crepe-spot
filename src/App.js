@@ -8,6 +8,7 @@ import { ThemeContext } from './contexts/themecontexts';
 import HorizontalScroll from './components/HorizontalScroll';
 import TableCard from './components/TableCard';
 import FullCard from './components/FullCard';
+import FullCard2 from './components/FullCard2';
 import Nav from './components/Nav';
 import Carousel from './components/Carousel';
 import Footer from './components/Footer';
@@ -27,9 +28,10 @@ function App() {
         <FullCard />
         <TableCard />
         <div className='splitcard-container'>
-        <SplitCard1 />
-        <SplitCard2 />
+          <SplitCard1 />
+          <SplitCard2 />
         </div>
+        <FullCard2 />
         <Footer/>
     </div>
   );
