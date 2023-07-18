@@ -1,4 +1,7 @@
+import React from 'react';
 import './App.css';
+import HorizontalScroll from './components/HorizontalScroll';
+import TableCard from './components/TableCard';
 
 import FullCard from './components/FullCard';
 import Nav from './components/Nav';
@@ -11,13 +14,14 @@ import 'swiper/css/navigation';
 import { useState } from 'react';
 
 function App() {
-  const [darkMode, setDarkMode] = useState(false)
   return (
 
     <div className="App">
       <Nav />
-      <FullCard />
       <Carousel cakes={cakes} />
+      <HorizontalScroll />
+      <FullCard />
+      <TableCard />
       <Footer/>
    </div>
 
