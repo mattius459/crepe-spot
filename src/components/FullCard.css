@@ -1,14 +1,18 @@
 .FullCard {
+    
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 36px;
     width: 363px;
     height: 250px;
     flex-shrink: 0;
-}
+  }
 
 .card_info {
     padding: 12px;
     border-radius: 0px 0px 10px 10px;
     background: #FFFFF3;
-
 }
 
 .image {
