@@ -1,6 +1,6 @@
 .horizontal-scroll {
     display: flex;
-    width: 96%; 
+    width: 100%; 
     max-width: 393px; 
     height: 120px;
     justify-content: flex-start;
@@ -10,7 +10,7 @@
     background: #FFFFF3;
     overflow-x: auto;
     margin: 0 auto;
-    margin-top: 372px;
+    margin-top: 41px;
   }
   
   .horizontal-scroll img {

@@ -15,16 +15,14 @@ import { useState } from 'react';
 
 function App() {
   return (
-
     <div className="App">
       <Nav />
       <Carousel cakes={cakes} />
       <HorizontalScroll />
       <FullCard />
-      <TableCard />
+      {/* <TableCard /> */}
       <Footer/>
    </div>
-
   );
 }
 

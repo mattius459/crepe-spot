@@ -6,7 +6,6 @@ function Nav() {
     <div class="Nav">
     <div class="logo"></div>
 
-
     </div>
   )
 }
