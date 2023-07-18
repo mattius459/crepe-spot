@@ -12,6 +12,11 @@
     margin-top: 198px;
 }
 
+.dark .tablecard {
+    background: #2F414D;
+    transition: 0.4s;
+}
+
 .section {
     display: flex;
     height: 130px;
@@ -58,6 +63,10 @@
     margin-bottom: 0px;
 }
 
+.dark .title {
+    color: #FFFFFF;
+}
+
 
 .img-description {
     color: #754343;
@@ -73,6 +82,12 @@
     margin-bottom: 10px;
     text-align: left;
 }
+
+.dark .img-description {
+    color: #FFFFFF;
+}
+
+
 
 .button-blue {
     width: 127px;
