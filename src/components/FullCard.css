@@ -1,0 +1,65 @@
+.FullCard {
+    
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 36px;
+    width: 363px;
+    height: 250px;
+    flex-shrink: 0;
+  }
+
+.card_info {
+    padding: 12px;
+    border-radius: 0px 0px 10px 10px;
+    background: #FFFFF3;
+}
+
+.image {
+    width: 363px;
+    height: 250px;
+    flex-shrink: 0;
+
+    border-radius: 10px 10px 0px 0px;
+    background: url('../../public/images/x-2501.png'), lightgray 50% / cover no-repeat;
+}
+.title {
+    color: #7E4F4E;
+    font-family: SF Pro Display;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.165px;
+    text-align: left;
+}
+
+.description {
+    font-family: SF Pro Display;
+    color: #754343;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: -0.165px;
+    width: 212px;
+    text-align: left;
+}
+
+.add_button {
+    margin-top: 14px;
+    width: 127px;
+    height: 28px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    background: #8CCCF5;
+    color: #2F414D;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.165px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
