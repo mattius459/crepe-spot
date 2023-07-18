@@ -5,6 +5,7 @@ import './App.css';
 import HorizontalScroll from './components/HorizontalScroll';
 import TableCard from './components/TableCard';
 import FullCard from './components/FullCard';
+import FullCard2 from './components/FullCard2';
 import Nav from './components/Nav';
 import Carousel from './components/Carousel';
 import Footer from './components/Footer';
@@ -16,18 +17,18 @@ import { useState } from 'react';
 
 function App() {
   return (
-
-    <div className='splitcard-container'>
-      <SplitCard1 />
-      <SplitCard2 />
-      <div className="App">
-        <Nav />
-        <Carousel cakes={cakes} />
-        <HorizontalScroll />
-        <FullCard />
-        <TableCard />
-        <Footer/>
+    <div className="App">
+      <Nav />
+      <Carousel cakes={cakes} />
+      <HorizontalScroll />
+      <FullCard />
+      <TableCard />
+      <div className='splitcard-container'>
+        <SplitCard1 />
+        <SplitCard2 />
       </div>
+      <FullCard2 />
+      <Footer />
     </div>
 
   );

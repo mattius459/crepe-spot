@@ -1,6 +1,7 @@
 .card-container-2 {
 display: inline-block;
 margin-left: 10px;
+margin-top: 44px;
 }
 .container-2 {
 background-color: #FFFFF3;
@@ -13,9 +14,11 @@ border-radius: 10px 10px 10px 10px;
 }
 
 .title-2 {
-width: 136px;
+margin-top: 13px;
+margin-left: 6px;
+width: 120px;
 color: #754343;
-font-family: SF Pro Text;
+font-family: SF Pro Display;
 font-size: 14px;
 font-style: normal;
 font-weight: 600;
@@ -26,10 +29,11 @@ letter-spacing: -0.165px;
 .sub-title-2 {
 width: 157px;
 color: #754343;
+margin-left: 6px;
 font-family: SF Pro Display;
 font-size: 14px;
 font-style: normal;
-font-weight: 300;
+font-weight: 200;
 line-height: normal;
 letter-spacing: -0.165px;
 }
@@ -47,4 +51,6 @@ border: 0;
 border-radius: 24px;
 padding: 6px 24px;
 background-color: #8CCCF5;
+margin-left: 9px;
+margin-top: 18px;
 }
