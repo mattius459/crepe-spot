@@ -1,3 +1,59 @@
+/* @font-face {
+  font-family: SFProDisplay;
+  src: url('../public/fonts/SF-Pro-Display-Regular.otf') format('otf');
+} */
+
+.App {
+  text-align: center;
+  background-color: #f1f1f1; /* Set the default background color for light mode */
+}
+
+.dark.App {
+  text-align: center;
+  background-color: #182833; /* Set the background color for dark mode */
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.container{
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 0 20px ;
+}
+
 .splitcard-container {
     display: flex;
     justify-content: center;

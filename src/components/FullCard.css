@@ -13,6 +13,11 @@
 
 }
 
+.dark .card_info {
+    background: #2F414D;
+    transition: 0.4s;
+}
+
 .image {
     width: 363px;
     height: 250px;
@@ -32,6 +37,10 @@
     text-align: left;
 }
 
+.dark .title {
+    color: #ffff;
+}
+
 .description {
     font-family: SF Pro Display;
     color: #754343;
@@ -42,6 +51,10 @@
     letter-spacing: -0.165px;
     width: 212px;
     text-align: left;
+}
+
+.dark .description {
+    color: #ffff;
 }
 
 .add_button {
