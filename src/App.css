@@ -3,9 +3,14 @@
   src: url('../public/fonts/SF-Pro-Display-Regular.otf') format('otf');
 } */
 
-
 .App {
   text-align: center;
+  background-color: #f1f1f1; /* Set the default background color for light mode */
+}
+
+.dark.App {
+  text-align: center;
+  background-color: #182833; /* Set the background color for dark mode */
 }
 
 .App-logo {
@@ -48,5 +53,3 @@
   margin: 0 auto;
   padding: 0 20px ;
 }
-
-
