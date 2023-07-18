@@ -12,6 +12,11 @@
     margin: 0 auto;
     margin-top: 41px;
   }
+
+  .dark .horizontal-scroll {
+    background: #2F414D;
+    transition: 0.4s;
+  }
   
   .horizontal-scroll img {
     width: 120px;
