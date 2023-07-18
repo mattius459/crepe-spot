@@ -1,9 +1,19 @@
+body {
+    padding-top: 81px;  /* Adjust based on the actual height of your navbar */
+}
 .Nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 81px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
-  }
+    padding-left:  0px;
+    padding-right: 15px;
+    background-color: #FFF;
+    margin-top: -2px;
+}
 
 .dark .Nav {
     background-color: #2F414D;

@@ -4,7 +4,7 @@ import './FullCard.css'
 function FullCard() {
   return (
     <div class="FullCard">
-        <div class="image"></div>
+        <div class="image1"></div>
         <div class="card_info">
             <div class="title">
             Choco Bon Bon Mille Crepe

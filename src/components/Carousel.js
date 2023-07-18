@@ -11,7 +11,7 @@ export default function Carousel() {
     <Swiper 
         centeredSlides={true}
         autoplay={{
-          delay: 1500,
+          delay: 1600,
           disableOnInteraction: false,
         }}
         pagination={{

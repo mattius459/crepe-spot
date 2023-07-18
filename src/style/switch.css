@@ -1,6 +1,7 @@
  /* The switch - the box around the slider */
  .switch {
     position: relative;
+    position: sticky;
     display: inline-block;
     width: 64px;
     height: 30px;

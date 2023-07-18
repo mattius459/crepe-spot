@@ -28,4 +28,5 @@
 .mySwiper .slide img {
 object-fit: contain;
 height: 100%;
+z-index: 80;
 }
