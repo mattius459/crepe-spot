@@ -1,0 +1,143 @@
+.darkMode .footer {
+  background-color: #182833;
+}
+
+.footer {
+  width: 100%;
+  height: 400px;
+  flex-shrink: 0;
+  background: #FFFFF3 ;
+  padding: 20px;
+}
+
+.footer-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.darkMode .footer-social {
+  color: #ffff;
+}
+
+.footer-social {
+  display: flex;
+  gap: 30px;
+}
+
+.footer-top {
+  height: 100px;
+  flex-shrink: 0;
+}
+
+.logo-t,
+.logo-l,
+.logo-c {
+  display: inline-block;
+  font-family: "Monoton", cursive;
+}
+
+.logo-tlc {
+  width: 137px;
+}
+
+.logo-t,
+.logo-c {
+  color: #8cccf5;
+  font-family: Monoton;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 103%; /* 56.65px */
+  letter-spacing: 1px;
+}
+
+.logo-l {
+  color: #f5a4a4;
+  font-family: Monoton;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 103%;
+  letter-spacing: 1px;
+}
+
+.darkMode .footer-middle {
+  color: #ffff;
+}
+
+.footer-middle {
+  color: #7d4e4e;
+  font-family: SF Pro Display;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 103%; /* 20.6px */
+  letter-spacing: 1px;
+  margin: 20px;
+}
+
+.footer-bottom {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 103%;
+  letter-spacing: 1px;
+}
+
+.darkMode .footer-bottom .company {
+  color: #ffff;
+}
+
+.footer-bottom .company {
+  color: #754343;
+  font-family: SF Pro Display;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  align-items: center;
+}
+
+.darkMode .footer-bottom .copyright {
+  color: #ffff;
+}
+
+.footer-bottom .copyright {
+  fill: #7d4e4e;
+  stroke-width: 1px;
+  stroke: #7d4e4e;
+  width: 30px;
+  height: 30px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+}
+
+.footer-links {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  justify-content: space-evenly;
+  margin-top: 30px;
+}
+
+.darkMode .footer-links a {
+  color: #ffff;
+}
+
+.footer-links a {
+  color: #754343;
+  font-family: SF Pro Display;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 103%; /* 14.42px */
+  letter-spacing: 1px;
+  text-decoration-line: underline;
+}
