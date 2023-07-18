@@ -21,7 +21,7 @@ function App() {
       <Carousel cakes={cakes} />
       <HorizontalScroll />
       <FullCard />
-      <TableCard />
+      {/* <TableCard /> */}
       <Footer/>
    </div>
 

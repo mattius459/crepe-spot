@@ -4,35 +4,27 @@ import React, { useRef, useState } from 'react';
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 import { cakes } from './cake';
 
-
-
 export default function Carousel() {
   return (
-    <Swiper 
-        centeredSlides={true}
-        autoplay={{
-          delay: 2500,
-          disableOnInteraction: false,
-        }}
-        pagination={{
-          clickable: true,
-        }}
-        navigation={true}
-        modules={[Autoplay, Pagination, Navigation]}
-        className="mySwiper"
-      >
+    <Swiper
+      centeredSlides={true}
+      autoplay={{
+        delay: 2500,
+        disableOnInteraction: false,
+      }}
+      pagination={{
+        clickable: true,
+      }}
+      navigation={false} // disable navigation
+      modules={[Autoplay, Pagination, Navigation]}
+      className="mySwiper"
+    >
       {cakes.map((cake, index) => (
         <SwiperSlide key={index} className='slide'>
           <img src={cake.image} alt={cake.title} />
-        
         </SwiperSlide>
-
       ))
-        
       }
-
-      
-      
-      </Swiper>
+    </Swiper>
   );
 }
